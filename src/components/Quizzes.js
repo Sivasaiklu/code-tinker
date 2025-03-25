@@ -6,7 +6,7 @@ function Quizzes() {
   return (
     <div className="container-fluid d-flex flex-column align-items-center justify-content-center text-center text-light" style={{ minHeight: "91vh", backgroundColor: "black" }}>
       {/* Header */}
-      <h2 className="mb-4 fw-bold">
+      <h2 className="mb-4 mt-4 fw-bold">
         <FaQuestionCircle /> 🎯 Test Your Knowledge
       </h2>
       <p className="text-light fs-5">
@@ -53,7 +53,7 @@ function Quizzes() {
 
         {/* Master Quiz */}
         <div className="col-md-3">
-          <div className="card quiz-card shadow-lg p-3 border-0 rounded text-center master-quiz bg-dark text-light">
+          <div className="card quiz-card shadow-lg p-3 border-0 rounded text-center master-quiz bg-dark text-light mb-4">
             <FaTrophy size={60} color="#FFD700" className="mb-2 icon-hover" />
             <h4 className="mt-2 fw-bold">Master Quiz</h4>
             <p>Challenge yourself with the final quiz.</p>

@@ -6,7 +6,7 @@ function Learn() {
   return (
     <div className="container-fluid d-flex flex-column align-items-center justify-content-center text-center text-light" style={{ minHeight: "91vh", backgroundColor: "black"}}>
       {/* Header */}
-      <h2 className="mb-4 fw-bold">
+      <h2 className="mb-4 mt-4 fw-bold">
         <FaBook /> 📚 Learn Web Development
       </h2>
       <p className="text-light fs-5">
@@ -41,7 +41,7 @@ function Learn() {
 
         {/* JavaScript Section */}
         <div className="col-md-3">
-          <div className="card shadow-lg p-3 border-0 rounded text-center bg-secondary text-light">
+          <div className="card shadow-lg p-3 border-0 rounded text-center bg-secondary text-light mb-4">
             <FaJs size={60} color="#F7DF1E" className="mb-2 icon-hover" />
             <h4 className="mt-2 fw-bold">JavaScript</h4>
             <p>Make your web pages interactive.</p>
